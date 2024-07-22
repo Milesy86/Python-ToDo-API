@@ -9,14 +9,23 @@ To run the application:
 Clone this repository (git clone https://github.com/Milesy86/Python-ToDo-API.git)
 
 Run locally in Terminal (Windows)
-Install Python 3.8 (or higher), if you don't already have it
+Install Python 3.8 (or higher), if you don't already have it.
 Open the project in your IDE of choice
-Create and activate a python virtual environment, then install dependencies:
+Using the built-in terminal, create and activate a python virtual environment, then install dependencies:
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r .\requirements.txt
 Run the application:
 python app.py
+
+Run locally in Terminal (Linux)
+Install Python 3.8 (or higher), if you don't already have it.
+Create and activate a python virtual environment, then install dependencies:
+python -m venv venv
+source venv/bin/activate
+pip install -r ./requirements.txt
+Run the application:
+python3 app.py
 
 Running the tests
 Unit tests have been written using pytest. To run them, you can simply run this in your Terminal:

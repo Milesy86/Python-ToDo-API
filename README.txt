@@ -21,11 +21,11 @@ python app.py
 Run locally in Terminal (Linux)
 Install Python 3.8 (or higher), if you don't already have it.
 Create and activate a python virtual environment, then install dependencies:
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install -r ./requirements.txt
 Run the application:
-python3 app.py
+python app.py
 
 Running the tests
 Unit tests have been written using pytest. To run them, you can simply run this in your Terminal:
